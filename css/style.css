@@ -1515,3 +1515,23 @@ img.footer-logo {
     gap: 24px;
   }
 }
+
+
+/* ===== PAGE HEADER WITH PHOTO BG (taller, zoomed-out feel for service deep-dive heroes) ===== */
+.page-header.page-header-photo {
+  padding: 160px 0 130px;
+  min-height: 460px;
+  display: flex;
+  align-items: center;
+}
+
+.page-header.page-header-photo .container {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .page-header.page-header-photo {
+    padding: 100px 0 80px;
+    min-height: 360px;
+  }
+}
